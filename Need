@@ -1,0 +1,54 @@
+# Import the data
+tb_data <- read.csv("tb.csv")
+
+# Display the imported dataset
+head(tb_data)
+
+# Check data types and correct if necessary
+str(tb_data)
+
+# Explain whether the dataset is tidy
+# Determine if the dataset follows the principles of tidy data.
+
+# If the dataset is not tidy, tidy it using tidyr and dplyr functions
+# Use functions like gather and spread from tidyr to reshape the data if necessary.
+# Import the data
+billboard_data <- read.csv("billboard.csv")
+
+# Display the imported dataset
+head(billboard_data)
+
+# Check data types and correct if necessary
+str(billboard_data)
+
+# Explain whether the dataset is tidy
+# Determine if the dataset follows the principles of tidy data.
+
+# If the dataset is not tidy, tidy it using tidyr and dplyr functions
+# Use functions like gather and spread from tidyr to reshape the data if necessary.
+# Import the data
+weather_data <- read.csv("weather.csv")
+
+# Display the imported dataset
+head(weather_data)
+
+# Check data types and correct if necessary
+str(weather_data)
+
+# Explain whether the dataset is tidy
+# Determine if the dataset follows the principles of tidy data.
+
+# If the dataset is not tidy, tidy it using tidyr and dplyr functions
+# Use functions like gather and spread from tidyr to reshape the data if necessary.
+Slide 2: Part A - Reflection on Participation (30%)
+
+[Slide Title: Part A - Reflection on Participation]
+
+Let's delve into my experience as a participant in the Assessment Centre Activities.
+At the outset, I'll share how I felt and my initial impressions as the activity commenced.
+As we progressed through the Assessment Centre, I'll reflect on how my emotions evolved during the process.
+I'll provide insights into the role I played during the Assessment Centre activity and the reasons behind my choice.
+My feelings about the Assessment Centre experience will be explored, offering a candid perspective on the journey.
+I'll also discuss my interactions with fellow group members and their behavior, shedding light on the dynamics.
+The outcome for the group, including feedback received from observers and our tutor, will be highlighted.
+Finally, I'll summarize the key lessons I learned from my participation in the Assessment Centre.
