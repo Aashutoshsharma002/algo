@@ -1,0 +1,22 @@
+-- SQL Command
+SELECT clientNo, lName, email
+FROM client
+WHERE email LIKE '%flintyrock%';
+-- SQL Command
+SELECT s.branchNo AS BranchNumber, COUNT(*) AS MyCount, AVG(s.salary) AS MyAverage
+FROM staff s
+GROUP BY s.branchNo
+HAVING COUNT(*) >= 2;
+-- SQL Command
+SELECT COUNT(*) AS NumOfFemaleStaff
+FROM staff
+WHERE sex = 'F';
+-- SQL Command to Update Property
+UPDATE propertyforrent
+SET rooms = rooms + 1, rent = rent * 1.10
+WHERE propertyNo = 'PL94';
+
+-- SQL Command to Show Updated Row
+SELECT *
+FROM propertyforrent
+WHERE propertyNo = 'PL94';
